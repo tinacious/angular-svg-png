@@ -6,8 +6,8 @@
 
 'use strict';
 
-angular.module('svgPngFallback', [])
-  .directive('img', function (Modernizr) {
+angular.module('svgPng', [])
+  .directive('img', function () {
     return {
       restrict: 'E',
       link: function (scope, elem, attrs) {
