@@ -4,7 +4,8 @@
   "version": "1.0",
   "main": "angular-svg-png.js",
   "ignore": [
-    "readme.md"
+    "readme.md",
+    "angular-svg-png-screenshot.png"
   ],
   "dependencies": {
     "modernizr": ">=2.6.0"
