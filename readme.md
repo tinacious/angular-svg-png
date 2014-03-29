@@ -1,4 +1,4 @@
-# AngularJS directive for SVG to PNG fallback support for unsupported browsers
+# SVG to PNG fallback in AngularJS
 
 This Angular directive will automatically replace the file extension `*.svg` with `*.png` for browsers that do not support SVG.
 
