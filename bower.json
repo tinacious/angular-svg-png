@@ -1,0 +1,12 @@
+{
+  "name": "angular-svg-png",
+  "description": "AngularJS directive for SVG to PNG fallback",
+  "version": "1.0",
+  "main": "angular-svg-png.js",
+  "ignore": [
+    "readme.md"
+  ],
+  "dependencies": {
+    "modernizr": ">=2.6.0"
+  }
+}
