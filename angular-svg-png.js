@@ -11,7 +11,7 @@ angular.module('svgPng', [])
     return {
       restrict: 'E',
       link: function (scope, elem, attrs) {
-        if ( Modernizr && !Modernizr.svg ) {
+        if ( typeof Modernizr !== 'undefined' && !Modernizr.svg ) {
           elem.attr('src', attrs.src.replace('.svg', '.png'));
         }
       }
